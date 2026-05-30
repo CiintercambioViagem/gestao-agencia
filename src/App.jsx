@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 
 const FORNECEDORES_INIT = [
   { id: 1, nome: "Azul Viagens", cnpj: "12.345.678/0001-90", comissao: 10 },
